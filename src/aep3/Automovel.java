@@ -4,8 +4,8 @@ public class Automovel extends Veiculo{
     private int qntdPortas;
     private String tipoCombustivel;
     
-    public  Automovel (String nome,String chassi, String marca, String modelo, int anoFab, int qntdPortas, String tipoCombustivel){
-        super (nome, chassi, marca, modelo, anoFab);
+    public  Automovel (String placa,String chassi, String marca, String modelo, int anoFab, int qntdPortas, String tipoCombustivel){
+        super (placa, chassi, marca, modelo, anoFab);
         this.qntdPortas =qntdPortas;
         this.tipoCombustivel=tipoCombustivel;
     }
